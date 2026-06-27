@@ -1,0 +1,9 @@
+# Change this:
+- uses: actions/checkout@v4
+# To this:
+- uses: actions/checkout@v4.1.2  # or a newer major version like @v5 / @v6 depending on current releases
+
+# Change this:
+- uses: actions/upload-artifact@v4
+# To this:
+- uses: actions/upload-artifact@v4.3.0 # or newer like @v7
