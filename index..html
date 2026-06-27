@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Kumar Gond | Professional Portfolio</title>
+    <!-- Linking the CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Header with Profile Image -->
+    
+    <!-- Main Header with Profile Image & Contact Details -->
+    <header class="profile-header">
+        <div class="container header-flex">
+            <img src="anish.png" alt="Anish Kumar Gond Profile Picture" class="profile-img">
+            <div class="header-text">
+                <h1>Anish Kumar Gond</h1>
+                <p><strong>📞 Phone:</strong> +91 9709908843</p>
+                    <p><strong>✉️ Email:</strong> <a href="mailto:aksurya621@gmail.com">aksurya621@gmail.com</a></p>
+                    <a href="https://www.linkedin.com/in/anish-kumar-gond/" target="_blank" class="social-btn linkedin">🌐 LinkedIn</a>
+                        <a href="https://github.com/AKSURYA624" target="_blank" class="social-btn github">💻 GitHub</a>
+                <p class="subtitle">Cyber Security Analyst | AI Security Engineer | Network Specialist</p>
+                
+                <p class="academic-meta">
+                    Affiliated with Bihar Engineering University, Patna (BEU Patna)
+                </p> 
+            </div>
+        </div>
+    </header>
+
+    
+
+    <!-- Navigation Tabs -->
+    <nav class="portfolio-tabs">
+        <div class="container flex-tabs">
+            <button class="tab-btn active" onclick="openPage(event, 'about')">About & Skills</button>
+            <button class="tab-btn" onclick="openPage(event, 'education')">Education </button>
+            <button class="tab-btn" onclick="openPage(event, 'projects')">Projects & Internships</button>
+            <button class="tab-btn" onclick="openPage(event, 'cybersecurity')">Cyber Security</button>
+            <button class="tab-btn" onclick="openPage(event, 'networking')">Networking Infrastructure</button>
+            <button class="tab-btn" onclick="openPage(event, 'ai-programming')">AI & Programming</button>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="container">
+        
+        <!-- PAGE 1: Profile & Technical Skills -->
+        <section id="about" class="tab-content active">
+            <h2>Professional Profile</h2>
+            <p>Final-year Computer Science and Engineering student specializing in Artificial Intelligence, Ethical Hacking, and Enterprise Network Infrastructures. Proven expertise in developing machine learning security frameworks, conducting vulnerability assessments, and managing robust network topologies.</p>
+            
+            <h2>Technical Skills Matrix</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>💻 Languages & Web</h3>
+                    <p class="skills-tags"><span>C</span><span>Python</span><span>HTML5</span><span>CSS3</span></p>
+                </div>
+                <div class="skill-card">
+                    <h3>⚙️ Frameworks & Libraries</h3>
+                    <p class="skills-tags"><span>Scikit-learn</span><span>Pandas</span><span>Flask</span><span>NumPy</span></p>
+                </div>
+                <div class="skill-card">
+                    <h3>🛠️ Security Tools</h3>
+                    <p class="skills-tags"><span>Kali Linux</span><span>Nmap</span><span>Wireshark</span><span>Metasploit</span><span>Burp Suite</span><span>Aircrack-ng</span></p>
+                </div>
+                <div class="skill-card">
+                    <h3>🛡️ Core Concepts</h3>
+                    <p class="skills-tags"><span>VAPT</span><span>Penetration Testing</span><span>SOC</span><span>Network Security</span><span>Cryptography</span></p>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- PAGE 2: Structured Education Section -->
+        <section id="education" class="tab-content">
+            <h2>Academic Details</h2>
+            <div class="education-timeline">
+                
+                <!-- B.Tech Card -->
+                <div class="edu-card">
+                    <div class="edu-year">2022 – 2026</div>
+                    <div class="edu-details">
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <p class="edu-spec">Computer Science and Engineering (Artificial Intelligence)</p>
+                        <p class="edu-inst">Government Engineering College, Munger (GEC Munger)</p>
+                        <p class="edu-univ">Affiliated with Bihar Engineering University, Patna (BEU Patna)</p>
+                        <p class="edu-loc">📍 Munger, Bihar</p>
+                    </div>
+                </div>
+
+                <!-- Intermediate Card -->
+                <div class="edu-card">
+                    <div class="edu-year">2018 – 2021</div>
+                    <div class="edu-details">
+                        <h3>Intermediate (Class XII), Science</h3>
+                        <p class="edu-inst">S.L. Jain High School, Darauli</p>
+                        <p class="edu-univ">Bihar School Examination Board (BSEB), Patna</p>
+                        <p class="edu-loc">📍 Siwan, Bihar</p>
+                    </div>
+                </div>
+
+                <!-- Matriculation Card -->
+                <div class="edu-card">
+                    <div class="edu-year">2017 – 2018</div>
+                    <div class="edu-details">
+                        <h3>Matriculation (Class X)</h3>
+                        <p class="edu-inst">D.C. High School, Done</p>
+                        <p class="edu-univ">Bihar School Examination Board (BSEB), Patna</p>
+                        <p class="edu-loc">📍 Siwan, Bihar</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PAGE 3:  Internships & Projects  -->
+        <section id="projects" class="tab-content">
+            <h2>Hands-on Experience & Internships</h2>
+            
+            <!-- C-DAC Patna Internship -->
+            <div class="cert-card">
+                <div class="cert-badge" style="background-color: #edf5ff; color: #0f62fe;">Grade A</div>
+                <h3>Training-cum-Internship in Cyber Security & Ethical Hacking</h3>
+                <p class="institution">Centre for Development of Advanced Computing (C-DAC), Patna</p>
+                <p class="meta"><strong>Duration:</strong> 08 Dec 2025 - 16 Jan 2026 | <strong>Certificate No:</strong> C-DAC/PAT/2511/17008</p>
+                <p class="details">Completed advanced technical development, hands-on vulnerability analysis, and defensive architecture setups under MeitY, Government of India.</p>
+                <a href="https://drive.google.com/file/d/1K4quFeuWzDULCyZN0qvaXSn6e7ngIi3o/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <!-- C-DAC Noida Virtual Internship -->
+            <div class="cert-card">
+                <div class="cert-badge" style="background-color: #d1fae5; color: #065f46;">MeitY Gov</div>
+                <h3>Ethical Hacking & Penetration Testing Virtual Internship</h3>
+                <p class="institution">Centre for Development of Advanced Computing (C-DAC), Noida</p>
+                <p class="meta"><strong>Duration:</strong> 01 Apr 2025 - 16 May 2025 | <strong>Certificate No:</strong> 1643/336003/CG/(25)/2098</p>
+                <p class="details">Conducted active web and infrastructure testing environments under the flagship <strong>Cyber Gyan Project</strong>, managed by a Scientific Society of the Ministry of Electronics & IT, Government of India.</p>
+                <a href="https://drive.google.com/file/d/1WDdiX2sZbxZH7C5NvuGV-wLhBKiRsVvh/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div> 
+
+            <!-- Edufyi Tech Solutions Internship -->
+            <div class="cert-card">
+                <div class="cert-badge" style="background-color: #e0e7ff; color: #3730a3;">Verified</div>
+                <h3>Cybersecurity Internship</h3>
+                <p class="institution">Edufyi Tech Solutions</p>
+                <p class="meta"><strong>Duration:</strong> 01 Apr 2025 - 30 Jun 2025 | <strong>Certificate ID:</strong> ETS835</p>
+                <p class="details">Completed specialized training and industry-simulated threat assessments. Formally accredited under corporate standards (ISO 9001:2015, MSME, and Ministry of Corporate Affairs, Govt. of India).</p>
+                <a href="https://drive.google.com/file/d/1vM-LDCkAnDvZljqyXzXvvZ1z1GfOfjxX/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Internship Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Phishing URL Detection Gateway</h3>
+                <p class="institution">Core Project Architecture</p>
+                <p class="details">Orchestrated an end-to-end security engine using <strong>Python, Scikit-learn, and Flask</strong>. Built and fine-tuned <strong>Random Forest</strong> machine learning algorithms to actively flag and intercept malicious incoming URL threats.</p>
+            </div>
+
+            <div class="cert-card">
+                <h3>Web Application Vulnerability Scanner</h3>
+                <p class="institution">Core Project Architecture</p>
+                <p class="details">Designed an automated platform to scan target web application endpoints for critical vulnerabilities matching OWASP Top 10 baselines.</p>
+            </div>
+        </section>
+
+        <!-- PAGE 4: Cybersecurity Certifications -->
+        <section id="cybersecurity" class="tab-content">
+            <h2>Cyber Security Credentials</h2>
+
+            <!-- DROP Organization Certification -->
+            <div class="cert-card" style="border-left: 4px solid #4f46e5;">
+                <div class="cert-badge" style="background-color: #e0e7ff; color: #3730a3;">ISO Certified</div>
+                <h3>DROP Certified Security Course (DCSC)</h3>
+                <p class="institution">DROP Organization</p>
+                <p class="meta"><strong>Date:</strong> 12 Jan 2025 | <strong>Certificate No:</strong> DCSC-AKGRG0624</p>
+                <p class="details">Successfully completed all rigorous requirements, assessment pathways, and testing criteria concerning <strong>Web Application Penetration Testing</strong> managed by an ISO 9001:2015 certified company.</p>
+                <a href="https://drive.google.com/file/d/1GetiY4SdfyEOCryuwQZUPv1ZSzigEKF7/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View DCSC Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Introduction to Cybersecurity (IBM)</h3>
+                <p class="institution">IBM SkillsBuild</p>
+                <p class="meta"><strong>Completed:</strong> 19 Apr 2025 | <strong>Course ID:</strong> ALM-COURSE_4058978</p>
+                <p class="details">Explored enterprise systems risks, baseline mitigation methodologies, and system patch security structures.</p>
+                <a href="https://drive.google.com/file/d/1r9Sj-LDKjEFwSfFdgiNQW0qx6cRz7Osl/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Introduction to Cybersecurity (Cisco)</h3>
+                <p class="institution">Government Engineering College Munger (Cisco Academy)</p>
+                <p class="meta"><strong>Completed:</strong> 14 May 2025 | <strong>Instructor:</strong> Disuja Kumari</p>
+                <p class="details">Corporate data risk containment, network infrastructure defenses, and foundational cryptographic paradigms.</p>
+                <a href="https://drive.google.com/file/d/1cOdG4SXsihR_9Q1za-JjKBWIWpzpSfnS/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Cybersecurity Essentials (2024)</h3>
+                <p class="institution">Cisco Networking Academy</p>
+                <p class="meta"><strong>Completed:</strong> 18 Jul 2024 | <strong>VP/GM:</strong> Laura Quintana</p>
+                <p class="details">Advanced concepts covering tactical impact scopes of dynamic vector threats and technical boundary protection.</p>
+                <a href="https://drive.google.com/file/d/11Nt0A3y-QBxWTwlbGJXxw5yxR0BKqCTV/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Cybersecurity Essentials (2023)</h3>
+                <p class="institution">Cisco Networking Academy</p>
+                <p class="meta"><strong>Completed:</strong> 12 Jul 2023 | <strong>VP/GM:</strong> Laura Quintana</p>
+                <p class="details">Foundational frameworks map-outs on structural network integrity controls and active threat detection vectors.</p>
+                <a href="https://drive.google.com/file/d/1hf3n3zJ_wCCVSekox4A1VgfCS6VD2RxU/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+        </section>
+
+        <!-- PAGE 5: Networking Infrastructure -->
+        <section id="networking" class="tab-content">
+            <h2>Networking & Systems Infrastructure</h2>
+
+            <div class="cert-card">
+                <h3>CCNA: Enterprise Networking, Security, and Automation</h3>
+                <p class="institution">Government Engineering College Munger (Cisco Academy)</p>
+                <p class="meta"><strong>Completed:</strong> 14 Jun 2025 | <strong>Instructor:</strong> Disuja Kumari</p>
+                <p class="details">Configuring OSPF, network virtualization layers, threat protection matrices, and multi-node software-defined configurations.</p>
+                <a href="https://drive.google.com/file/d/1bCGu_bNGwQZrpSJS3FAJ3TYpE_VKN7Uj/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>CCNA: Introduction to Networks</h3>
+                <p class="institution">Government Engineering College Munger (Cisco Academy)</p>
+                <p class="meta"><strong>Completed:</strong> 15 Jun 2025 | <strong>Instructor:</strong> Disuja Kumari</p>
+                <p class="details">Architecture of physical topologies, IP allocation rules (IPv4/IPv6), switching mechanics, and advanced subnets design.</p>
+                <a href="https://drive.google.com/file/d/1nnzUjYTqHB-iVQhWvZjXMrYXKd-AtXNt/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Introduction to Packet Tracer</h3>
+                <p class="institution">Cisco Networking Academy</p>
+                <p class="meta"><strong>Completed:</strong> 12 Jul 2023 | <strong>Director:</strong> Lynn Bloomer</p>
+                <p class="details">Simulation environment mapping, packet pathway routing configurations, and diagnostics orchestration.</p>
+                <a href="https://drive.google.com/file/d/13b0f44V_ctNeVYg441ZuG5SnXs8MeYf8/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>IT Essentials: PC Hardware and Software</h3>
+                <p class="institution">Cisco Networking Academy</p>
+                <p class="meta"><strong>Completed:</strong> 08 Sep 2023 | <strong>Director:</strong> Lynn Bloomer</p>
+                <p class="details">Hardware setups engineering, core operational kernel layers configuration, and troubleshooting pathways.</p>
+                <a href="https://drive.google.com/file/d/1BvPhwCK3AydFI_wRbEeztRLKg21FAYab/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+        </section>
+
+        <!-- PAGE 6: AI & Programming -->
+        <section id="ai-programming" class="tab-content">
+            <h2>Artificial Intelligence & Advanced Programming</h2>
+
+            <div class="cert-card" style="border-left: 4px solid #10b981;">
+                <div class="cert-badge" style="background-color: #d1fae5; color: #065f46;">IIT Guwahati</div>
+                <h3>Fundamentals of Artificial Intelligence</h3>
+                <p class="institution">NPTEL Online Certification (Funded by MoE, Govt. of India)</p>
+                <p class="meta"><strong>Duration:</strong> Jul - Oct 2025 (12 Weeks) | <strong>Consolidated Score:</strong> 53%</p>
+                <p class="details">Academically rigorous framework assessment mapping state-space analytics and search strategies. Certified via IIT Guwahati on the Swayam pathway.</p>
+                <a href="https://drive.google.com/file/d/11IjwSkhSJA-g9xc93mY8DpZJL__6EOM9/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View NPTEL Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-badge" style="background-color: #edf5ff; color: #0f62fe;">IBM</div>
+                <h3>AI's New Superpower: Multimodal Retrieval-Augmented Generation</h3>
+                <p class="institution">IBM SkillsBuild</p>
+                <p class="meta"><strong>Completed:</strong> 22 Jan 2026 | <strong>Course ID:</strong> ALM-COURSE_3953961</p>
+                <p class="details">Studied the mechanics of building RAG pipelines integrating text, audio, and visual inputs for accurate multi-vector content generation.</p>
+                <a href="https://drive.google.com/file/d/1nqQaeFBAMEE8_OWFZuw4S452ZROfTAwc/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-badge" style="background-color: #edf5ff; color: #0f62fe;">IBM</div>
+                <h3>Vector Embeddings: AI's Key to Meaning</h3>
+                <p class="institution">IBM SkillsBuild</p>
+                <p class="meta"><strong>Completed:</strong> 22 Jan 2026 | <strong>Course ID:</strong> ALM-COURSE_3826580</p>
+                <p class="details">Mastered high-dimensional geometric representations of semantic terms to enable context mapping within large text patterns and vector databases.</p>
+                <a href="https://drive.google.com/file/d/1Z1Z8MT6Pt8TL--8lpnr1JY8hau8t0_V6/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Python Essentials 2</h3>
+                <p class="institution">Networking Academy</p>
+                <p class="meta"><strong>Completed:</strong> 26 Mar 2025 | <strong>Director:</strong> Lynn Bloomer</p>
+                <p class="details">Advanced features, custom exceptions processing, structural file pipelines, and Object-Oriented Programming (OOP) paradigms.</p>
+                <a href="https://drive.google.com/file/d/1eUEqe7sBIvhpdTX58DYVUQP6tABdNo7n/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Python Essentials 1</h3>
+                <p class="institution">Government Engineering College Munger (Cisco Academy)</p>
+                <p class="meta"><strong>Completed:</strong> 14 May 2025 | <strong>Instructor:</strong> Disuja Kumari</p>
+                <p class="details">Core syntax, structural branching, data collection formats, and functional code encapsulation blocks.</p>
+                <a href="https://drive.google.com/file/d/1a2CojtxwrW1P9yZjtRH_4LJyA_eegKhK/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Partner: CLA - Programming Essentials in C</h3>
+                <p class="institution">Cisco Networking Academy</p>
+                <p class="meta"><strong>Completed:</strong> 01 Apr 2023 | <strong>Director:</strong> Lynn Bloomer</p>
+                <p class="details">Low-level memory assignment workflows, compilation controls, structure arrays, and deterministic algorithm implementations.</p>
+                <a href="https://drive.google.com/file/d/1cEnmJBpQgXOiLDYpvySCg1-0iq36Gqq7/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Linux Unhatched</h3>
+                <p class="institution">Government Engineering College Munger (Cisco Academy)</p>
+                <p class="meta"><strong>Completed:</strong> 20 Jan 2025 | <strong>Instructor:</strong> Disuja Kumari</p>
+                <p class="details">Linux open-source architecture command mechanics, absolute system path adjustments, and administrative utility workflows.</p>
+                <a href="https://drive.google.com/file/d/11_qKVw788iMJ-Ptw7PN-1er4Xwqh_wkr/view?usp=drive_link" target="_blank" class="view-cert-btn">📄 View Certificate</a>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <!-- LINKING JAVASCRIPT LOGIC -->
+    <script src="script.js"></script>
+</body>
+</html>
